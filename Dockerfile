@@ -15,5 +15,5 @@ ADD . /usr/local/rest-call-app
 RUN cd /usr/local/rest-call-app
 
 #THE CMD COMMAND tells docker the command to run when the container is started up from the image. In this case we are
-# executing the java program as is to print Hello World.
+# making a REST Call.
 CMD ["java", "-jar", "/usr/local/rest-call-app/target/rest-call-app-0.0.1-SNAPSHOT.jar"]
